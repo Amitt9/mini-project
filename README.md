@@ -49,14 +49,14 @@ Car bazzar
 
   <td>Tanishq</td>
 
- <td>233</td>
+ <td>233159</td>
 
  </tr>
   <tr>
 
-  <td>A</td>
+  <td>Anirudha</td>
 
- <td>233226</td>
+ <td>233131</td>
 
  </tr>
 </table>
