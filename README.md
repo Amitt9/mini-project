@@ -1,8 +1,19 @@
 # mini-project
 Online platform for used cars
 Car bazzar
-<ol>
+<tr>
+  <th>Names</th>
+ <th>roll no</th>
 
-<li>Names</li>
+ </tr>
+ <tr>
 
-</ol>
+  <td>Amit</td>
+
+ <td>233226</td>
+
+ </tr>
+
+
+
+
