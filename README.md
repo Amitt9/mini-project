@@ -5,9 +5,9 @@ Car bazzar
 
 <table>
 <tr>
-  <th><i><b>Names</th>
- <th><i><h3>
-roll no</i></h3></th>
+  <th>Names<th>
+ <th><i>
+roll no</i></th>
 
  </tr>
  <tr>
