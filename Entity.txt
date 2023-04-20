@@ -1,0 +1,23 @@
+Buyer:
+	 bid,bname,bemail,bmobno
+seller:
+	sid,nsame,semail,smobno
+category:
+	category id,category name
+model:
+	model no,model name,category id
+car:
+	registration no.,RC no,average,age,model,car,color,price,model no,seller id.
+Staff:
+	employee no, employee name,email,job
+payment:
+	paymentid,customer registration no, paymentdate, amount, transaction id,status
+
+Dashboard
+	Personal details,subscription details,listed car 
+wishlist
+feedback
+catlog
+	cid,cname,cprice,cdesc,cmodelno,
+	
+
