@@ -26,7 +26,11 @@ cname varchar(20) not null
 create table model(
 
 mno int primary key,
-mname varchar(20) not null
+mname varchar(20) not null,
+cid int,
+constraint fk_cid foreign key(cid) references category(cid)
+on delete set null
+on update cascade
 );
 
 
@@ -38,13 +42,9 @@ age int not null,
 average double(2,2) not null,
 colour varchar(10),
 mno int,
-cid int,
 sid int,
-bid int,
 constraint fk_mno foreign key(mno) references model(mno)
-constraint fk_cid foreign key(cid) references category(cid)
 constraint fk_sid foreign key(sid) references seller(sid)
-constraint fk_bid foreign key(bid) references buyer(bid)
 on delete set null
 on update cascade
 );
@@ -62,4 +62,20 @@ constraint fk_cust foreign key(custrno) references buyer(bid)
 on delete set null
 on update cascade
 );
+
+create table staff(
+
+empno int primary key,
+ename varchar(20) not null,
+email varchar(20) not null,
+job varchar(10) not null
+);
+
+
+create table login(
+loginid int primary key,
+username varchar(20) not null,
+password varchar(10) not null
+);
+
 
